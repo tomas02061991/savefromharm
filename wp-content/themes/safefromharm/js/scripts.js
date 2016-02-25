@@ -1,4 +1,4 @@
-const themePath = "http://savefromharm.cryolab.dk/wp-content/themes/safefromharm/";
+const themePath = "http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/";
 
 $(document).on("ready", function () {
 	//når man klikker på knappen med id #to1, starter den funktion som vi beskriver inden i on()
