@@ -6,7 +6,7 @@
                 <p>Help us save the last remaining tigers in the wild!</p>
             </div>
             <div class="smallpage" id="ourmission">
-                <div>our mission tekst here!</div>
+                <?php get_page(5); ?>
             </div>
 			<div class="page" id="overview">
                 <h2>Overview</h2>
