@@ -3,6 +3,7 @@
 	<head>
         <meta charset="UTF-8">
         <title>Safe From Harm - Safe the last tigers</title>
+        <?php echo get_template_directory_uri(); ?>
         <meta name="author" content="Camilla Krarup Lauridsen &amp; Tomas Nielsen ">
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/bootstrap/js/bootstrap.min.js"></script>
