@@ -1,4 +1,5 @@
 <?php get_header();
+    $pages = get_pages();
 ?>		
 <main>
 			<div class="page" id="home">
@@ -6,10 +7,11 @@
                 <p>Help us save the last remaining tigers in the wild!</p>
             </div>
             <div class="smallpage" id="ourmission">
-                <?php 
-                    $pages = get_pages(); 
+                <?php  
                     foreach ( $pages as $page ) {
-                        echo $page->post_name;
+                        if($page->post_name == "our-mission"){
+                            echo $page->post_content;
+                        }
                     }
                  ?>
             </div>
