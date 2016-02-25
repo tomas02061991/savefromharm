@@ -1,6 +1,10 @@
 <?php get_header();
     $pages = get_pages();
-    echo "<script>console.log(".implode(', ',$pages).");</script>"
+    foreach ( $pages as $page ) {
+        $tmp = $post->post_name;
+        $tmp = str_replace("-", "", $tmp)
+        ${$tmp}
+    }
 ?>		
 <main>
 			<div class="page" id="home">
@@ -9,11 +13,7 @@
             </div>
             <div class="smallpage" id="ourmission">
                 <?php  
-                    foreach ( $pages as $page ) {
-                        if($page->post_name == "our-mission"){
-                            echo $page->post_content;
-                        }
-                    }
+                     echo $ourmission->page_content;
                  ?>
             </div>
 			<div class="page" id="overview">
