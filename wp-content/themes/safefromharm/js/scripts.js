@@ -1,3 +1,5 @@
+const themePath = "http://savefromharm.cryolab.dk/wp-content/themes/safefromharm/";
+
 $(document).on("ready", function () {
 	//når man klikker på knappen med id #to1, starter den funktion som vi beskriver inden i on()
 	//dette er istedet for at skrive on("click", funktionsNavn), så kan man bare definere funktionen direkte i kaldet
@@ -49,12 +51,12 @@ $(document).scroll(function(){
     if($(this).scrollTop()>0){
         $("nav").css("background-color", "rgba(43, 43, 43, 0.0)")
         $(".botton").css("color", "#ffffff")
-        $("nav .logo img").attr("src", "images/logo_hvid.png")
+        $("nav .logo img").attr("src", themePath+"images/logo_hvid.png")
     }
     if($(this).scrollTop() >= aboutTop){
         $("nav").css("background-color", "rgba(255, 255, 255, 0.5)")
         $(".botton").css("color", "#010f1a")
-        $("nav .logo img").attr("src", "images/logo_sort.png")
+        $("nav .logo img").attr("src", themePath+"images/logo_sort.png")
     }
 });
 

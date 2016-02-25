@@ -29,15 +29,6 @@
                 <a href=""></a>
             </div>
                
-        </footer>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-            <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-		<script src="scripts.js"></script>
-        <script src="http://rendro.github.io/easy-pie-chart/javascripts/jquery.easy-pie-chart.js"></script>
-        <script src="lightbox2-master/lightbox.js"></script>
-        
+        </footer>        
 	</body>
 </html>
