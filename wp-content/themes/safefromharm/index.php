@@ -1,6 +1,6 @@
 <?php get_header();
     $pages = get_pages();
-    echo "<script>console.log(".impolde(', ',$pages).");</script>"
+    echo "<script>console.log(".implode(', ',$pages).");</script>"
 ?>		
 <main>
 			<div class="page" id="home">
