@@ -70,8 +70,7 @@ html,body{
 
 }
 
-.navbar li{
-	width: 100%;
+/*.navbar li{
 	height: auto;
     margin: 0 auto;
 	display: inline-block;
@@ -104,10 +103,10 @@ html,body{
     cursor: pointer;
 }
 
-.botton#donate:hover{
+.navbar li:last-child:hover{
     color: white !important;
     transition: all 0.5s;
-}
+}*/
 
 h1{
     text-align: center;
