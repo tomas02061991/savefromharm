@@ -8,6 +8,9 @@
             <div class="smallpage" id="ourmission">
                 <?php 
                     $pages = get_pages(); 
+                    foreach ( $pages as $page ) {
+                        echo $page->post_name;
+                    }
                  ?>
             </div>
 			<div class="page" id="overview">
