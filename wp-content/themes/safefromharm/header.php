@@ -11,7 +11,7 @@
 	</head>
     
 	<body>
-        <!-- Bootstrap menu skal tilføjes -->
+        <!-- Bootstrap menu skal tilføjes of doom -->
         <nav>
             <div class="logo col-md-2" id="logo">
                 <a href="#home">
