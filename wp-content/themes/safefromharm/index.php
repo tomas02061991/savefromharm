@@ -16,52 +16,76 @@
                  ?>
             </div>
 			<div class="page" id="overview">
-                <h2>Overview</h2>
-                <div>
-                    <div>
-                        tekst
-                    </div>
-                    <div>
-                        graf illustreret
-                    </div>
-                </div>
+                <?php  
+                    foreach ( $pages as $page ) {
+                        if($page->post_name == "overview"){
+                            echo $page->post_content;
+                        }
+                    }
+                 ?>
             </div>
 			<div class="page" id="themap">
-                <h2>
-                    TIGER POPULATION ESTIMATES
-                </h2>
+                <?php  
+                    foreach ( $pages as $page ) {
+                        if($page->post_name == "the-map"){
+                            echo $page->post_content;
+                        }
+                    }
+                 ?>
             </div>
             <div class="smallpage" id="thetigerfamily">
-                <h2 class="h2anothercolor">
-                    THE TIGER FAMILY
-                </h2>
+               <?php  
+                    foreach ( $pages as $page ) {
+                        if($page->post_name == "the-tiger-family"){
+                            echo $page->post_content;
+                        }
+                    }
+                 ?> 
             </div>
             <div class="page" id="whytheymatter">
-                <h2>
-                    WHY THEY MATTER
-                </h2>
+                <?php  
+                    foreach ( $pages as $page ) {
+                        if($page->post_name == "they-matter"){
+                            echo $page->post_content;
+                        }
+                    }
+                 ?>
             </div>
             <div class="smallpage" id="supporttigers">
-                <h2 class="h2anothercolor">
-                    SUPPORT THE TIGERS
-                </h2>
-                <div class="donatebutton">DONATE NOW!
-                </div>
+                <?php  
+                    foreach ( $pages as $page ) {
+                        if($page->post_name == "support-tigers"){
+                            echo $page->post_content;
+                        }
+                    }
+                 ?>
             </div>
             <div class="page" id="howwho">
-                <h2>
-                    HOW & WHO
-                </h2>
+                <?php  
+                    foreach ( $pages as $page ) {
+                        if($page->post_name == "how-who"){
+                            echo $page->post_content;
+                        }
+                    }
+                 ?>
             </div>
             <div class="smallpage" id="competition">
-                <h2 class="h2anothercolor">
-                    EASTPAK COMPETITION
-                </h2>
+                <?php  
+                    foreach ( $pages as $page ) {
+                        if($page->post_name == "competition"){
+                            echo $page->post_content;
+                        }
+                    }
+                 ?>
             </div>
             <div class="page" id="instagram">
-                <h2>
-                    INSTAGRAM
-                </h2>
+                <?php  
+                    foreach ( $pages as $page ) {
+                        if($page->post_name == "instagram"){
+                            echo $page->post_content;
+                        }
+                    }
+                 ?>
             </div>
 		</main>
 <?php get_footer();
