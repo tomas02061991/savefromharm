@@ -1,0 +1,257 @@
+html,body{
+	margin: 0;
+}
+
+.page{
+	width: 100%;
+	height: 100vh;
+    border: 1px solid;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.smallpage{
+    width: 100%;
+	height: 50vh;
+    border: 1px solid;
+    font-family: Bebas Neue, 'Open Sans', sans-serif;
+    background-color: #000;
+}
+
+nav{
+	width:100%;
+	height: 4vw;
+	position: fixed;
+    background-color: rgba(34, 34, 34, 0.5);
+    transition: all 1s;
+    z-index: 1;
+}
+
+.logo{
+    width: 5vw;
+    height: 4vw;
+    margin-left: 5%;
+    margin-right: 2%;
+/*
+    background-image: url(images/logo_hvid.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+*/
+    display: inline-block;
+    cursor: pointer;
+}
+
+.menu{
+    float: right;
+
+}
+
+.botton{
+	width: 100%;
+	height: auto;
+    margin: 0 auto;
+	display: inline-block;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-family: Bebas Neue, 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    line-height: 4vw;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.botton:hover{
+    color: darkorange!important;
+    transition: all 0.5s;
+}
+
+.donate{
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-family: Bebas Neue, 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    background-color: darkorange;
+    line-height: 4vw;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.botton#donate:hover{
+    color: white !important;
+    transition: all 0.5s;
+}
+
+h1{
+    text-align: center;
+    font-size: 75px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    font-family: Bebas Neue, 'Open Sans', sans-serif;
+    color: #ffffff;
+    margin-top: 15vw;
+    margin-bottom:10px;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    line-height: 5vw;
+    font-family: Bebas Neue, 'Open Sans', sans-serif;
+    color: #000000;
+    margin: 0 auto;
+    margin-top: 2vw;
+    padding: 1vw;
+}
+
+.h2anothercolor{
+    color: #fff;
+}
+
+p{
+    text-align: center;
+    font-family: Avenir Next LT Pro Medium Condensed, 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+    
+
+/*---------------Frontpage--------------*/
+
+.page#home{
+    background-color: #000;
+}
+
+/*---------------OUR MISSION--------------*/
+
+
+
+
+
+
+/*---------------OVERVIEW--------------*/
+
+
+
+
+
+/*---------------THE MAP - TIGER POPULATION--------------*/
+
+
+
+
+
+/*---------------THE TIGER FAMILY--------------*/
+
+
+
+
+/*---------------WHY THEY MATTER--------------*/
+
+
+
+
+/*---------------SUPPORT THE TIGERS - DONATE--------------*/
+
+.donatebutton{
+    width: 15vw;
+    height: 4vw;
+    text-align: center;
+    line-height: 4vw;
+    font-size: 22px;
+    letter-spacing: 1px;
+    background-color: darkorange;
+    
+}
+
+
+
+
+/*-----------Footer-----------*/
+
+footer{
+    width: 100%;
+    height: 40vh;
+    bottom: 0;
+    background-color: #000;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: Bebas Neue, 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid;
+}
+
+.footertext{
+    color: darkorange;
+}
+
+.linkfooter{
+    text-align:center;
+    letter-spacing: 20px;
+}
+
+.fa.fa-instagram{
+    color: white;
+    font-size: 90px;
+}
+
+.fa.fa-instagram:hover{
+    color: darkorange;
+    transition: all 0.5s;
+}
+
+.fa.fa-facebook-official{
+    color: white;
+    font-size: 90px;
+}
+
+.fa.fa-facebook-official:hover{
+    color: darkorange;
+    transition: all 0.5s;
+}
+
+.fa.fa-envelope{
+    color: darkorange;
+}
+
+.input-group{
+    text-align: center;
+    margin: 7px;
+}
+.form-control{
+    width: 1vw;
+    height: 2.5vw;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    border-radius: 0;
+}
+
+.btn{
+    width: 7.5vw;
+    height: 2.5vw;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    border-radius: 0;
+    background-color: darkorange;
+    margin: 10px;
+}
+
+.btn:hover{
+    transition: all 0.5s;
+}
+
+
+
+
+
+
