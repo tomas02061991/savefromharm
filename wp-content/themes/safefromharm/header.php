@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>Safe From Harm - Safe the last tigers</title>
         <meta name="author" content="Camilla Krarup Lauridsen">
-        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/bootstrap/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
 
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
