@@ -2,8 +2,8 @@
     $pages = get_pages();
     foreach ( $pages as $page ) {
         $tmp = $post->post_name;
-        $tmp = str_replace("-", "", $tmp)
-        ${$tmp}
+        $tmp = str_replace("-", "", $tmp);
+        ${$tmp};
     }
 ?>		
 <main>
