@@ -18,7 +18,7 @@
         <nav>
             <div class="logo col-md-2" id="logo">
                 <a href="#home">
-                    <img class="logo" src="images/logo_hvid.png" alt=""/>
+                    <img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo_hvid.png" alt=""/>
                 </a>
             </div>
             <div class="menu col-md-8">
