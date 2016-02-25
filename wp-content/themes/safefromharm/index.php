@@ -1,5 +1,6 @@
 <?php get_header();
     $pages = get_pages();
+    echo "<script>console.log($pages);</script>"
 ?>		
 <main>
 			<div class="page" id="home">
