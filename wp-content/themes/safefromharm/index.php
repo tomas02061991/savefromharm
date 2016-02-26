@@ -4,8 +4,13 @@
 ?>		
 <main>
 			<div class="page" id="home">
-                <h1>SAFE FROM HARM</h1>
-                <p>Help us save the last remaining tigers in the wild!</p>
+                <?php  
+                    foreach ( $pages as $page ) {
+                        if($page->post_name == "home"){
+                            echo $page->post_content;
+                        }
+                    }
+                 ?>
             </div>
             <div class="smallpage" id="ourmission">
                 <?php  
