@@ -53,12 +53,12 @@ $(document).scroll(function(){
             var bgColor = page.css("background-color");
             console.log(bgColor);
             
-            if(position <= 0 && bgColor=="#fff"){
+            if(position <= 0 && bgColor=="rgb(255, 255, 255)"){
                 $("nav").css("background-color", "rgba(255, 255, 255, 0.5)")
                 $(".botton").css("color", "#010f1a")
                 $("nav .logo img").attr("src", themePath+"images/logo_sort.png")
             } 
-            if(position <= 0 && bgColor=="#000"){
+            if(position <= 0 && bgColor=="rgb(0, 0, 0)"){
                 $("nav").css("background-color", "rgba(43, 43, 43, 0.0)")
                 $(".botton").css("color", "#ffffff")
                 $("nav .logo img").attr("src", themePath+"images/logo_hvid.png")
