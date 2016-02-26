@@ -52,7 +52,7 @@ $(document).scroll(function(){
             var position = post.position().top - $(window).scrollTop();
             var bgColor = page.css("background-color")
             
-            if (position <= 0 && bgColor="#fff") {
+            if(position <= 0 && bgColor="#fff") {
                 $("nav").css("background-color", "rgba(255, 255, 255, 0.5)")
                 $(".botton").css("color", "#010f1a")
                 $("nav .logo img").attr("src", themePath+"images/logo_sort.png")
