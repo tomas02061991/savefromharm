@@ -49,8 +49,9 @@ $(document).on("ready", function () {
 $(document).scroll(function(){
     $('.page').each(function() {
             var page = $(this);
-            var position = page.position().top - $(window).scrollTop();
+            var position = page.offset().top - $(this).scrollTop();
             var bgColor = page.css("background-color");
+            console.log(bgColor);
             
             if(position <= 0 && bgColor=="#fff"){
                 $("nav").css("background-color", "rgba(255, 255, 255, 0.5)")
