@@ -21,6 +21,7 @@ html,body{
 	height: 100vh;
     border: 1px solid;
     font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
 }
 
 .smallpage{

@@ -12,7 +12,7 @@
                     }
                  ?>
             </div>
-            <div class="smallpage" id="ourmission">
+            <div class="page smallpage" id="ourmission">
                 <?php  
                     foreach ( $pages as $page ) {
                         if($page->post_name == "our-mission"){
@@ -39,7 +39,7 @@
                     }
                  ?>
             </div>
-            <div class="smallpage" id="thetigerfamily">
+            <div class="page smallpage" id="thetigerfamily">
                <?php  
                     foreach ( $pages as $page ) {
                         if($page->post_name == "the-tiger-family"){
@@ -57,7 +57,7 @@
                     }
                  ?>
             </div>
-            <div class="smallpage" id="supporttigers">
+            <div class="page smallpage" id="supporttigers">
                 <?php  
                     foreach ( $pages as $page ) {
                         if($page->post_name == "support-tigers"){
@@ -75,7 +75,7 @@
                     }
                  ?>
             </div>
-            <div class="smallpage" id="competition">
+            <div class="page smallpage" id="competition">
                 <?php  
                     foreach ( $pages as $page ) {
                         if($page->post_name == "competition"){
