@@ -60,7 +60,7 @@ nav{
 
 }
 
-nav ul li{
+nav ul li, nav ul li a{
 	display: inline-block;
     font-size: 22px;
     letter-spacing: 1px;
