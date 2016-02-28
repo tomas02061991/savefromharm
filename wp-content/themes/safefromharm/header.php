@@ -24,7 +24,7 @@
             </div>
             <ul>
                 <li>
-                    <a href="#ourmisson">OUR MISSION</a>
+                    <a href="#ourmission">OUR MISSION</a>
                 </li>
                 <li>
                     <a href="#overview">OVERVIEW</a>
