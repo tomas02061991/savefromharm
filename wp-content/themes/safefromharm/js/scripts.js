@@ -8,40 +8,41 @@ $(document).on("ready", function () {
 	        scrollTop: $("#home").offset().top
 	    }, 1500);
 	});
-	$("#toone").on("click", function() {
+	$("nav ul li a").on("click", function() {
+        var target = $(this).attr("href");
 	    $('html, body').animate({
-	        scrollTop: $("#home").offset().top
+	        scrollTop: $(target).offset().top
 	    }, 1500);
-	});
-	$("#totwo").on("click", function() {
-    	$('html, body').animate({
-        	scrollTop: $("#ourmission").offset().top
-    	}, 1500);
-	});
-	$("#tothree").on("click", function() {
-    	$('html, body').animate({
-        	scrollTop: $("#overview").offset().top
-    	}, 1500);
-	});
-	$("#tofour").on("click", function() {
-    	$('html, body').animate({
-        	scrollTop: $("#themap").offset().top
-    	}, 1500);
-	});
-    $("#tofive").on("click", function() {
-    	$('html, body').animate({
-        	scrollTop: $("#whytheymatter").offset().top
-    	}, 1500);
-	});
-    $("#tosix").on("click", function() {
-    	$('html, body').animate({
-        	scrollTop: $("#howwho").offset().top
-    	}, 1500);
-	});
-    $("#toseven").on("click", function() {
-    	$('html, body').animate({
-        	scrollTop: $("#competition").offset().top
-    	}, 1500);
+	// });
+	// $("#totwo").on("click", function() {
+ //    	$('html, body').animate({
+ //        	scrollTop: $("#ourmission").offset().top
+ //    	}, 1500);
+	// });
+	// $("#tothree").on("click", function() {
+ //    	$('html, body').animate({
+ //        	scrollTop: $("#overview").offset().top
+ //    	}, 1500);
+	// });
+	// $("#tofour").on("click", function() {
+ //    	$('html, body').animate({
+ //        	scrollTop: $("#themap").offset().top
+ //    	}, 1500);
+	// });
+ //    $("#tofive").on("click", function() {
+ //    	$('html, body').animate({
+ //        	scrollTop: $("#whytheymatter").offset().top
+ //    	}, 1500);
+	// });
+ //    $("#tosix").on("click", function() {
+ //    	$('html, body').animate({
+ //        	scrollTop: $("#howwho").offset().top
+ //    	}, 1500);
+	// });
+ //    $("#toseven").on("click", function() {
+ //    	$('html, body').animate({
+ //        	scrollTop: $("#competition").offset().top
+ //    	}, 1500);
 	});
 
     $(function(){

@@ -78,7 +78,9 @@ nav ul li, nav ul li a{
 nav ul li a:hover, nav ul li a:link, nav ul li a:active, nav ul li a:visited{
     text-decoration: none;
 } 
-
+nav ul li a:hover{
+    color: darkorange;
+}
 .botton:hover{
     color: darkorange!important;
     transition: all 0.5s;
