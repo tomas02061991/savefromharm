@@ -22,12 +22,12 @@ $(document).on("ready", function () {
             var position = page.position().top - $(window).scrollTop();
             var bgColor = page.css("background-color");
             
-            if (position <= 0 && bgColor == "rgb(0, 0, 0)") {
+            if (position <= 5 && bgColor == "rgb(0, 0, 0)") {
                 $("nav").css("background-color", "rgba(43, 43, 43, 0.0)")
                 $("nav ul li a").css("color", "#ffffff")
                 $("nav .logo img").attr("src", themePath+"images/logo_hvid.png")
             }
-            if (position <= 0 && bgColor == "rgb(255, 255, 255)") {
+            if (position <= 5 && bgColor == "rgb(255, 255, 255)") {
                 $("nav").css("background-color", "rgba(255, 255, 255, 0.5)")
                 $("nav ul li a").css("color", "#010f1a")
                 $("nav .logo img").attr("src", themePath+"images/logo_sort.png")
