@@ -18,17 +18,13 @@ html,body{
 
 .page{
 	width: 100%;
-	height: 100vh;
+	height: auto;
     border: 1px solid;
     font-family: 'Open Sans', sans-serif;
     background-color: #fff;
 }
 
-.smallpage{
-    width: 100%;
-	height: 50vh;
-    border: 1px solid;
-    font-family: Bebas Neue, 'Open Sans', sans-serif;
+.page:nth-child(even){
     background-color: #000;
 }
 
