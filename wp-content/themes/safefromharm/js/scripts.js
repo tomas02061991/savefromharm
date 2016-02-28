@@ -65,19 +65,3 @@ $(document).on("ready", function () {
     });
 });
 });
-
-
-// $(document).scroll(function(){
-//     var aboutTop = $("#overview").offset().top
-//     if($(this).scrollTop()>0){
-//         $("nav").css("background-color", "rgba(43, 43, 43, 0.0)")
-//         $(".botton").css("color", "#ffffff")
-//         $("nav .logo img").attr("src", themePath+"images/logo_hvid.png")
-//     }
-//     if($(this).scrollTop() >= aboutTop){
-//         $("nav").css("background-color", "rgba(255, 255, 255, 0.5)")
-//         $(".botton").css("color", "#010f1a")
-//         $("nav .logo img").attr("src", themePath+"images/logo_sort.png")
-//     }
-// });
-

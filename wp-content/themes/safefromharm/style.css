@@ -60,10 +60,7 @@ nav{
 
 }
 
-.botton{
-	width: 100%;
-	height: auto;
-    margin: 0 auto;
+nav ul li{
 	display: inline-block;
     font-size: 22px;
     letter-spacing: 1px;
@@ -74,6 +71,8 @@ nav{
     line-height: 4vw;
     transition: all 1s;
     cursor: pointer;
+    list-style: none;
+    text-decoration: none;
 }
 
 .botton:hover{
