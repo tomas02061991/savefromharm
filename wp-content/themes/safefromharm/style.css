@@ -322,7 +322,7 @@ footer{
 }
 
 .btn-default:hover, .btn-default:focus, .btn-default:active{
-    background-color: orange;
+    background-color: orange!important;
     border: 0;
 }
 
@@ -353,8 +353,8 @@ footer{
 }
 
 .modal-content input[type="submit"]:hover, .modal-content input[type="submit"]:active, .modal-content input[type="submit"]:focus{
-    border: 0;
-    background: darkorange;
+    border: 0!important;
+    background: darkorange!important;
 }
 
 .modal-footer{
