@@ -158,6 +158,9 @@ p{
 /*---------------Frontpage--------------*/
 
 .page#home{
+    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/front3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-color: #000;
 }
 
@@ -183,7 +186,7 @@ p{
 /*---------------THE TIGER FAMILY--------------*/
 
 
-
+S
 
 /*---------------WHY THEY MATTER--------------*/
 
