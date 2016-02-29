@@ -186,7 +186,6 @@ p{
     background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/bg1.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color: #000;
 }
 
 
@@ -226,8 +225,8 @@ S
 .page#instagram{
     background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/bg_paws.png);
     background-size: 100%;
+    opacity: 50%;
     background-repeat: no-repeat;
-    background-color: #000;
 }
 
 
