@@ -44,7 +44,7 @@ nav{
 .logo{
     width: 5vw;
     height: 4vw;
-    margin-top: 0.5vw;
+    margin-top: 0.25vw;
     margin-left: 5%;
     margin-right: 2%;
 /*
@@ -93,7 +93,7 @@ nav ul li a:hover{
     font-weight: bold;
     text-align: center;
     color: #fff;
-    line-height: 4vw;
+    line-height: 5vw;
     transition: all 1s;
     cursor: pointer;
     width: 9vw;
@@ -308,8 +308,35 @@ footer{
     transition: all 0.5s;
 }
 
+/*---------------MODALS--------------*/
 
+.modal-header{
+    border-bottom: 1px solid #111;
+}
 
+.modal-title{
+    color: darkorange;
+    text-align: center;
+}
 
+.btn-default:hover{
+    background-color: orange;
+}
 
+.btn-default{
+    border: 0px;
+}
+.modal-content{
+    background-color: #222222;
+}
 
+.modal-footer{
+    border-top: 1px solid #111;
+}
+
+@media (min-width: 768px){
+.modal-dialog {
+    width: 600px;
+    margin: 10vw auto;
+}
+}
