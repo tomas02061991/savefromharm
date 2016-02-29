@@ -81,11 +81,21 @@ nav ul li a:hover, nav ul li a:link, nav ul li a:active, nav ul li a:visited{
     text-decoration: none;
 } 
 nav ul li a:hover{
-    color: darkorange;
-}
-.botton:hover{
     color: darkorange!important;
     transition: all 0.5s;
+}
+#donate{
+    display: inline-block;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-family: Bebas Neue, 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    line-height: 4vw;
+    transition: all 1s;
+    cursor: pointer;
+    background-image: url("http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/donate_flag.png"); 
 }
 
 .donate{
