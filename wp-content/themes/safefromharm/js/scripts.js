@@ -10,7 +10,7 @@ $(document).on("ready", function () {
 	});
 	$("nav ul li a").on("click", function() {
         var target = $(this).attr("href");
-	    $('html, body').animate({
+	    $('html, body').stop().animate({
 	        scrollTop: $(target).offset().top
 	    }, 1500);
 	});
