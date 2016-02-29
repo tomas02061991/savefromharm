@@ -55,11 +55,6 @@ nav{
     cursor: pointer;
 }
 
-.menu{
-    float: right;
-
-}
-
 nav ul li, nav ul li a{
 	display: inline-block;
     font-size: 22px;
