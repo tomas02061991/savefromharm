@@ -321,8 +321,9 @@ footer{
     font-weight: bold;
 }
 
-.btn-default:hover{
+.btn-default:hover, .btn-default:focus, .btn-default:active{
     background-color: orange;
+    border: 0;
 }
 
 .btn-default{
@@ -347,7 +348,13 @@ footer{
     margin-top: 10px;
     font-family: Bebas Neue, 'Open Sans', sans-serif;
     font-weight: bold;
+    border: 0;
     background-color: darkorange
+}
+
+.modal-content input[type="submit"]:hover, .modal-content input[type="submit"]:active, .modal-content input[type="submit"]:focus{
+    border: 0;
+    background: darkorange;
 }
 
 .modal-footer{
