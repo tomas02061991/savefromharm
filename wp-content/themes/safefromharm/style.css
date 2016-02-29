@@ -164,7 +164,12 @@ p{
 /*---------------OVERVIEW--------------*/
 
 
-
+.page#overview{
+    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/bg1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
 
 
 /*---------------THE MAP - TIGER POPULATION--------------*/
@@ -198,8 +203,18 @@ S
 
 
 
+/*---------------INSTAGRAM--------------*/
 
-/*-----------Footer-----------*/
+.page#instagram{
+    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/bg_paws.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+
+
+
+/*-----------FOOTER-----------*/
 
 footer{
     width: 100%;
