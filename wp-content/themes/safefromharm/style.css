@@ -315,8 +315,10 @@ footer{
 }
 
 .modal-title{
+    font-family: Bebas Neue, 'Open Sans', sans-serif;
     color: darkorange;
     text-align: center;
+    font-weight: bold;
 }
 
 .btn-default:hover{
@@ -325,19 +327,27 @@ footer{
 
 .btn-default{
     border: 0px;
+    font-family: Bebas Neue, 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 .modal-content{
     background-color: #222222;
 }
 
 .modal-content label{
+    font-family: Bebas Neue, 'Open Sans', sans-serif;
     display: block;
     margin-top: 10px;
+    font-weight: bold;
+    color: darkorange;
 }
 
 .modal-content input[type="submit"]{
     display: block;
     margin-top: 10px;
+    font-family: Bebas Neue, 'Open Sans', sans-serif;
+    font-weight: bold;
+    background-color: darkorange
 }
 
 .modal-footer{
