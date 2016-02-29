@@ -23,4 +23,5 @@
                 </a>
             </div>
             <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+            <div id="donate" data-toggle="modal" data-target="#donateModal">DONATE</div>
 		</nav>
