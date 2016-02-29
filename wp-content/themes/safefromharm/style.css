@@ -95,7 +95,15 @@ nav ul li a:hover{
     line-height: 4vw;
     transition: all 1s;
     cursor: pointer;
+    width: 9vw;
+    height: 13vw;
     background-image: url("http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/donate_flag.png"); 
+    background-size: auto 100%;
+}
+
+.menu-primary-container{
+    width: 75vw!important;
+    display: inline-block!important;
 }
 
 .donate{
