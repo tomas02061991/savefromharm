@@ -12,9 +12,10 @@
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
-	</head>
+	<?php wp_head(); ?>
+    </head>
     
-	<body>
+	<body <?php body_class(); ?>>
         <!-- Bootstrap menu skal tilføjes of doom -->
         <nav>
             <div class="logo col-md-2" id="logo">
@@ -22,24 +23,5 @@
                     <img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo_hvid.png" alt=""/>
                 </a>
             </div>
-            <ul>
-                <li>
-                    <a href="#ourmission">OUR MISSION</a>
-                </li>
-                <li>
-                    <a href="#overview">OVERVIEW</a>
-                </li>
-                <li>
-                    <a href="#themap">THE MAP</a>
-                </li>
-                <li>
-                    <a href="#whytheymatter">THEY MATTER</a>
-                </li>
-                <li>
-                    <a href="#howwho">HOW &amp; WHO</a>
-                </li>
-                <li>
-                    <a href="#competition">COMPETITION</a>
-                </li>
-            </ul>
+            <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav>
