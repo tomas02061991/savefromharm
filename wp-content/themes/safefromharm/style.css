@@ -149,6 +149,9 @@ p{
 
 .page#home{
     background-color: #000;
+    background-image: url(http://savefromharm.cryolab.dk/wp-content/themes/safefromharm/images/front3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 /*---------------OUR MISSION--------------*/
