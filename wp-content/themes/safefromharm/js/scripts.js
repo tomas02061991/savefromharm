@@ -23,7 +23,7 @@ $(document).on("ready", function () {
             var bgColor = page.css("background-color");
             
             if (position <= 5 && bgColor == "rgb(0, 0, 0)") {
-                $("nav").css("background-color", "rgba(43, 43, 43, 0.0)")
+                $("nav").css("background-color", "rgba(0, 0, 0, 0.5)")
                 $("nav ul li a").css("color", "#ffffff")
                 $("nav .logo img").attr("src", themePath+"images/logo_hvid.png")
             }
