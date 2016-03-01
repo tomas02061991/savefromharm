@@ -28,17 +28,13 @@ $(document).on("ready", function () {
                 $("nav").css("background-color", "rgb(0, 0, 0)")
                 $("nav ul li a").css("color", "#ffffff")
                 $("nav .logo").attr("src", themePath+"images/logo_hvid.png")
-                if($(".navbar-collapse").attr("area-expand")){
-                    $(".navbar-default .navbar-collapse, .navbar-default .navbar-form").css({"background-color": "rgb(0, 0, 0)", "border-color":"#fff"});
-                }
+                $(".navbar-default .navbar-collapse, .navbar-default .navbar-form").css({"background-color": "rgb(0, 0, 0)", "border-color":"#fff"});
             }
             if (position <= 5 && bgColor == "rgb(255, 255, 255)") {
                 $("nav").css("background-color", "rgb(255, 255, 255)")
                 $("nav ul li a").css("color", "#010f1a")
                 $("nav .logo").attr("src", themePath+"images/logo_sort.png")
-                if($(".navbar-collapse").attr("area-expand")){
                     $(".navbar-default .navbar-collapse, .navbar-default .navbar-form").css({"background-color": "rgb(255, 255, 255)", "border-color":"#000"});
-                }
                
             }
         });        
