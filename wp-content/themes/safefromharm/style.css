@@ -94,7 +94,11 @@ nav ul li a:hover{
 }
 
 .navbar-default .navbar-toggle {
-    border: 0;
+    border-color: darkorange;
+}
+
+.icon-bar{
+    background-color: #FFF;
 }
 /*nav{
 	width:100%;
