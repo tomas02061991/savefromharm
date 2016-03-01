@@ -1,6 +1,6 @@
 <?php
 
-$sql=" CREATE TABLE DONATION(
+$sql="CREATE TABLE DONATION(
 			DonatorId INT AUTO_INCREMENT,
             Name VARCHAR(50) NOT NULL,
             Email VARCHAR(50) NOT NULL,

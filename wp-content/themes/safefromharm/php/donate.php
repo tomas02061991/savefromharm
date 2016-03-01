@@ -1,6 +1,7 @@
 <?php
 	$tempDir = "/var/www/savefromharm/wp-content/themes/safefromharm/";
 	include $tempDir.'php/createTable.php';
+	echo $output;
 
 	$name = $_REQUEST["name"];
 	$email = $_REQUEST["email"];
