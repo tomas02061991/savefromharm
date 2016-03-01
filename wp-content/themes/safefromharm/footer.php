@@ -36,6 +36,17 @@
                 document.getElementById("value").innerHTML = x+"$";
             }
             update();
+
+            var success = <?php echo $_REQUEST["success"] ?>;
+            if(success){
+                if(success == 1){
+                    $("#donateAlert").html("Thank you for your donation! An email will be send for confirmation.");
+                    $('#donateModal').modal('show');
+                } else{
+                    $("#donateAlert").html("Something went wrong. You canøt donate at this time.");
+                    $('#donateModal').modal('show');
+                }
+            }
         </script>      
 	</body>
 </html>

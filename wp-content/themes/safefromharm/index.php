@@ -100,6 +100,7 @@
                     <h4 class="modal-title" id="myModalLabel">DONATE NOW!</h4>
                   </div>
                   <div class="modal-body">
+                    <div class="alert" id="donateAlert"></div>
                     <form action="<?php echo get_template_directory_uri(); ?>/php/donate.php">
                         <label>Full Name:</label>
                         <input type="text" name="name" placeholder="John Johnson" required>

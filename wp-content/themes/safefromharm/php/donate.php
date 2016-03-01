@@ -1,7 +1,7 @@
 <?php
 	$tempDir = "/var/www/savefromharm/wp-content/themes/safefromharm/";
 	include $tempDir.'php/createTable.php';
-	echo $output;
+
 
 	$name = $_REQUEST["name"];
 	$email = $_REQUEST["email"];
@@ -32,8 +32,10 @@
     		$msg = "Hello ".$row['name']."<br><br>Thank you very much for donating the amount:".$newContribution;
 
     		mail($to, $subject, $msg, $headers);
+    		$success = 1;
 		} else{
 			$output="Data kunne ikke gemmes:".$conn->error;
+			$success = 0;
 		}
 	}
 	else{
@@ -41,11 +43,27 @@
 		$sql="INSERT INTO DONATION VALUES('$name','$email', $newContribution, $cardNumber, '$expDate', $cvc)";
 		if($conn->query($sql) == FALSE){
 			$output="Data kunne ikke gemmes:".$conn->error;
+			$success = 0;
 		}	
-		else{}
+		else{
+			$sql = "SELECT * FROM DONATION WHERE Email='$email'";
+			$result = $conn->query($sql);
+			$row = $result->fetch_assoc();
+			$headers = "MIME-Version: 1.0" . "\r\n";
+			$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+			$headers .= "From: Tomas@safefromharm.dk" . "\r\n";
+    		$headers .= "X-Mailer: PHP/" . phpversion();
+
+    		$to = $row['email'];
+    		$subject = "Thank you for donating! - SafeFromHarm";
+
+    		$msg = "Hello ".$row['name']."<br><br>Thank you very much for donating the amount:".$newContribution;
+
+    		mail($to, $subject, $msg, $headers);
+    		$success = 1;
+		}
 	}
 	$conn->close();
-	echo $output;
-
+	header("Location: /?success=".$success);
 
 ?>
