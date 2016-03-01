@@ -330,11 +330,14 @@ p{
 /*---------------SUPPORT THE TIGERS - DONATE--------------*/
 
 .donatebutton{
-    width: 15vw;
+    margin-left: 40.5%;
+    width: 19vw;
     height: 4vw;
     text-align: center;
-    line-height: 4vw;
-    background-color: darkorange;
+    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/tiger_button.png);
+    background-size: 100%;
+    opacity: 50%;
+    background-repeat: no-repeat;
 }
 
 
