@@ -31,7 +31,7 @@ $(document).on("ready", function () {
                 if($( window ).width() < 751){
                     $(".navbar-default .navbar-collapse, .navbar-default .navbar-form").css({"background-color": "rgba(0, 0, 0, .5)", "border-color":"#fff"});
                 } else{
-                     $(".navbar-default .navbar-collapse, .navbar-default .navbar-form").css({"background-color": "transparent", "border-color":"transparent}");
+                     $(".navbar-default .navbar-collapse, .navbar-default .navbar-form").css({"background-color": "transparent", "border-color":"transparent"});
                 }
             }
             if (position <= 5 && bgColor == "rgb(255, 255, 255)") {
@@ -41,7 +41,7 @@ $(document).on("ready", function () {
                 if($( window ).width() < 751){
                     $(".navbar-default .navbar-collapse, .navbar-default .navbar-form").css({"background-color": "rgba(255, 255, 255, .5)", "border-color":"#000"});
                 } else{
-                     $(".navbar-default .navbar-collapse, .navbar-default .navbar-form").css({"background-color": "transparent", "border-color":"transparent}");
+                     $(".navbar-default .navbar-collapse, .navbar-default .navbar-form").css({"background-color": "transparent", "border-color":"transparent"});
                 }
 
                
