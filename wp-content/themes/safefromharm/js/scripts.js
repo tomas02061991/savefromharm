@@ -1,6 +1,8 @@
 const themePath = "http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/";
 
 $(document).on("ready", function () {
+    $("#menu-primary").removeClass("menu");
+    $("#menu-primary").addClass("nav navbar-nav");
 	//når man klikker på knappen med id #to1, starter den funktion som vi beskriver inden i on()
 	//dette er istedet for at skrive on("click", funktionsNavn), så kan man bare definere funktionen direkte i kaldet
     $("#logo").on("click", function() {
