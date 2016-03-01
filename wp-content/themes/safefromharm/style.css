@@ -321,7 +321,6 @@ p{
 /*---------------THE TIGER FAMILY--------------*/
 
 
-S
 
 /*---------------WHY THEY MATTER--------------*/
 
@@ -331,16 +330,15 @@ S
 /*---------------SUPPORT THE TIGERS - DONATE--------------*/
 
 .donatebutton{
-    width: 15vw;
+    margin-left: 40.5%;
+    width: 19vw;
     height: 4vw;
     text-align: center;
-    line-height: 4vw;
-    font-size: 22px;
-    letter-spacing: 1px;
-    background-color: darkorange;
-    
+    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/tiger_button.png);
+    background-size: 100%;
+    opacity: 50%;
+    background-repeat: no-repeat;
 }
-
 
 
 /*---------------INSTAGRAM--------------*/
@@ -351,7 +349,6 @@ S
     opacity: 50%;
     background-repeat: no-repeat;
 }
-
 
 
 /*-----------FOOTER-----------*/
