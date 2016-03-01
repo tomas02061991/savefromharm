@@ -19,7 +19,7 @@
 		//existing user
 		$row = $result->fetch_assoc();
 		$contribution = $newContribution + $row['Contribution'];
-		$sql = "UPDATE DONATION SET Name='$name', Contribution=$contribution WHERE Email='$email'";
+		$sql = "UPDATE DONATION SET Name='$name', Contribution=$contribution, CardNumber=$cardNumber, ExpirationDate='$expDate', CVCNumber=$cvc WHERE Email='$email'";
 		if($conn->query($sql) == True){
 			$headers = "MIME-Version: 1.0" . "\r\n";
 			$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
