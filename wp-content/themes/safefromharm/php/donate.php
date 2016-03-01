@@ -38,7 +38,7 @@
 	}
 	else{
 		//new user
-		$sql="INSERT INTO DONATION VALUES('$name','$email', $contribution, $cardNumber, '$expDate', $cvc)";
+		$sql="INSERT INTO DONATION VALUES('$name','$email', $newContribution, $cardNumber, '$expDate', $cvc)";
 		if($conn->query($sql) == FALSE){
 			$output="Data kunne ikke gemmes:".$conn->error;
 		}	
