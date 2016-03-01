@@ -342,6 +342,12 @@ footer{
     color: darkorange;
 }
 
+#value{
+    font-family: Bebas Neue, 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: darkorange;   
+}
+
 .modal-content input[type="submit"]{
     display: block;
     margin-top: 10px;

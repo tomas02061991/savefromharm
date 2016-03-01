@@ -137,7 +137,7 @@
                             <option>24</option>
                         </select>
                         <label>CVC Number:</label>
-                        <input type="number" name="card" placeholder="xxxx" required>
+                        <input type="number" name="cvc" placeholder="xxxx" required>
                         <input type="submit" value="Donate Now">
                     </form>
                   </div>
