@@ -82,6 +82,10 @@ nav ul li a:hover{
     margin-right: 2%;
     padding: 0;
 }
+
+#donate{
+    background-image: none;
+}
 }
 
 .logo{

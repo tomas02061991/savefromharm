@@ -30,8 +30,12 @@ $(document).on("ready", function () {
                 $("nav .logo").attr("src", themePath+"images/logo_hvid.png")
                 if($( window ).width() < 751){
                     $(".navbar-default .navbar-collapse, .navbar-default .navbar-form").css({"background-color": "rgba(0, 0, 0, .5)", "border-color":"#fff"});
+                    $("#donate").css("color", "#ffffff")
+
                 } else{
                      $(".navbar-default .navbar-collapse, .navbar-default .navbar-form").css({"background-color": "transparent", "border-color":"transparent"});
+                     $("#donate").css("color", "#ffffff")
+
                 }
             }
             if (position <= 5 && bgColor == "rgb(255, 255, 255)") {
@@ -40,8 +44,10 @@ $(document).on("ready", function () {
                 $("nav .logo").attr("src", themePath+"images/logo_sort.png")
                 if($( window ).width() < 751){
                     $(".navbar-default .navbar-collapse, .navbar-default .navbar-form").css({"background-color": "rgba(255, 255, 255, .5)", "border-color":"#000"});
+                    $("#donate").css("color", "#010f1a")
                 } else{
                      $(".navbar-default .navbar-collapse, .navbar-default .navbar-form").css({"background-color": "transparent", "border-color":"transparent"});
+                     $("#donate").css("color", "#ffffff")
                 }
 
                
