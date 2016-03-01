@@ -76,7 +76,7 @@ nav ul li a:hover{
     margin-top: 1vw;
 }
 
-.navbar-brand{
+.navbar>.container-fluid .navbar-brand{
     margin-top: 0.25vw;
     margin-left: 5%;
     margin-right: 2%;
