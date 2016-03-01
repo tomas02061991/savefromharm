@@ -321,7 +321,6 @@ p{
 /*---------------THE TIGER FAMILY--------------*/
 
 
-S
 
 /*---------------WHY THEY MATTER--------------*/
 
@@ -335,12 +334,8 @@ S
     height: 4vw;
     text-align: center;
     line-height: 4vw;
-    font-size: 22px;
-    letter-spacing: 1px;
     background-color: darkorange;
-    
 }
-
 
 
 /*---------------INSTAGRAM--------------*/
@@ -351,7 +346,6 @@ S
     opacity: 50%;
     background-repeat: no-repeat;
 }
-
 
 
 /*-----------FOOTER-----------*/
