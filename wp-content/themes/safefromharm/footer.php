@@ -44,7 +44,8 @@
                     $("#donateAlert").css("display", "block");
                     $('#donateModal').modal('show');
                 } else{
-                    $("#donateAlert").html("Something went wrong. You canøt donate at this time.");
+                    $("#donateAlert").html("Something went wrong. You cannot donate at this time.");
+                    $("#donateAlert").css("display", "block");
                     $('#donateModal').modal('show');
                 }
             }
