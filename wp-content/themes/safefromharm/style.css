@@ -348,6 +348,14 @@ footer{
     color: darkorange;   
 }
 
+.alert {
+    font-family: Bebas Neue, 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background-color: darkorange;
+    border-color: orange;
+}
+
 .modal-content input[type="submit"]{
     display: block;
     margin-top: 10px;
