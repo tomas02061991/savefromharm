@@ -317,12 +317,16 @@ p{
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  width:960px;
 }
 
-p{
-  color:#525252;
-  font-size:12px;
+.pgraf{
+  color:#000;
+  font-size:13px;
+}
+
+.pgraflight{
+  color:#fff;
+  font-size:13px;
 }
 
 .skillbar {
