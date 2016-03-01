@@ -32,7 +32,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-              <div class="nav navbar-nav navbar-right"></div>
+              <div class="nav navbar-nav navbar-right">
+                  <div id="donate" data-toggle="modal" data-target="#donateModal">DONATE</div>
+              </div>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
