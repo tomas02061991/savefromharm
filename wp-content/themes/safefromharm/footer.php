@@ -31,6 +31,9 @@
                
         </footer>  
         <script>
+
+            $("#menu-primary").removeClass("menu");
+            $("#menu-primary").addClass("nav navbar-nav");
             function update() {
                 var x = document.getElementById("range").value;
                 document.getElementById("value").innerHTML = x+"$";
