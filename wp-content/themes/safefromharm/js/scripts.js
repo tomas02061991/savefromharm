@@ -5,7 +5,7 @@ $(document).on("ready", function () {
     $("#menu-primary").addClass("nav navbar-nav");
 	//når man klikker på knappen med id #to1, starter den funktion som vi beskriver inden i on()
 	//dette er istedet for at skrive on("click", funktionsNavn), så kan man bare definere funktionen direkte i kaldet
-    $("#logo").on("click", function() {
+    $(".navbar-brand").on("click", function() {
 	    $('html, body').animate({
 	        scrollTop: $("#home").offset().top
 	    }, 1500);
@@ -27,12 +27,12 @@ $(document).on("ready", function () {
             if (position <= 5 && bgColor == "rgb(0, 0, 0)") {
                 $("nav").css("background-color", "rgba(0, 0, 0, 0.5)")
                 $("nav ul li a").css("color", "#ffffff")
-                $("nav .logo img").attr("src", themePath+"images/logo_hvid.png")
+                $("nav .logo").attr("src", themePath+"images/logo_hvid.png")
             }
             if (position <= 5 && bgColor == "rgb(255, 255, 255)") {
                 $("nav").css("background-color", "rgba(255, 255, 255, 0.5)")
                 $("nav ul li a").css("color", "#010f1a")
-                $("nav .logo img").attr("src", themePath+"images/logo_sort.png")
+                $("nav .logo").attr("src", themePath+"images/logo_sort.png")
             }
         });        
     });
