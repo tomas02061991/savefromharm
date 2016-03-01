@@ -75,7 +75,6 @@ nav ul li a:hover{
 .navbar-nav {
     margin-top: 1vw;
 }
-}
 
 .navbar-brand{
     margin-top: 0.25vw;
@@ -83,6 +82,8 @@ nav ul li a:hover{
     margin-right: 2%;
     padding: 0;
 }
+}
+
 .logo{
     width: 5vw;
     cursor: pointer;
