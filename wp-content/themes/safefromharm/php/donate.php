@@ -1,5 +1,6 @@
 <?php
-	include get_template_directory_uri().'/php/createTable.php';
+	$tempDir = "http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/"
+	include $tempDir.'php/createTable.php';
 
 	$name = $_REQUEST["name"];
 	$email = $_REQUEST["email"];
@@ -10,7 +11,7 @@
 	$cvc = $_REQUEST["cvc"];
 
 	$sql = "SELECT * FROM DONATION WHERE Email='$email'";
-	include get_template_directory_uri().'/php/connect.php';
+	include $tempDir.'php/connect.php';
 	$result = $conn->query($sql);
 
 	if($result->num_rows > 0){
