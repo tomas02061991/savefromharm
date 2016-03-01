@@ -41,7 +41,7 @@ nav{
     z-index: 1;
 }
 
-.logo{
+/*.logo{
     width: 5vw;
     margin-top: 0.25vw;
     margin-left: 5%;
@@ -50,7 +50,7 @@ nav{
     background-image: url(http://savefromharm.cryolab.dk/wp-content/themes/safefromharm/images/logo_hvid.png);
     background-size: 100%;
     background-repeat: no-repeat;
-*/
+
     display: inline-block;
     cursor: pointer;
 }
@@ -104,7 +104,7 @@ nav ul li a:hover{
 .menu-primary-container{
     width: 75vw!important;
     display: inline-block!important;
-}
+}*/
 
 .donate{
     font-size: 22px;
