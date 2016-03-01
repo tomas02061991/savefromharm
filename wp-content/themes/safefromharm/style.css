@@ -84,12 +84,6 @@ nav ul li a:hover{
 }
 }
 
-@media (max-width: 768px){
-    #donate{
-        background-image: none;
-    }
-}
-
 .logo{
     width: 5vw;
     cursor: pointer;
@@ -128,6 +122,13 @@ nav ul li a:hover{
     background-image: url("http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/donate_flag.png"); 
     background-size: auto 100%;
 }
+
+@media (max-width: 768px){
+    #donate{
+        background-image: none;
+    }
+}
+
 
 .navbar-right{
     margin: 0;
