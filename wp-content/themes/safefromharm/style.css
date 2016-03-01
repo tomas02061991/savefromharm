@@ -279,6 +279,10 @@ h3{
     color: darkorange;
 }
 
+h3{
+    font-size: 25px;   
+}
+
 p{
     font-family: Avenir Next LT Pro Medium Condensed, 'Open Sans', sans-serif;
     color: #ffffff;
@@ -430,7 +434,7 @@ footer{
 /*---------------MODALS--------------*/
 
 .modal-header{
-    border-bottom: 1px solid #111;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 
 .modal-title{
@@ -438,6 +442,7 @@ footer{
     color: darkorange;
     text-align: center;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .btn-default:hover, .btn-default:focus, .btn-default:active{
@@ -460,6 +465,7 @@ footer{
     margin-top: 10px;
     font-weight: bold;
     color: darkorange;
+    letter-spacing: 1px;
 }
 
 #value{
@@ -482,6 +488,7 @@ footer{
     margin-top: 10px;
     font-family: Bebas Neue, 'Open Sans', sans-serif;
     font-weight: bold;
+    letter-spacing: 1px;
     border: 0;
     background-color: darkorange
 }
@@ -492,7 +499,7 @@ footer{
 }
 
 .modal-footer{
-    border-top: 1px solid #111;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 
 @media (min-width: 768px){
