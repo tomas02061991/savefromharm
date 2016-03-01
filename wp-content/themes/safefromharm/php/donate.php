@@ -45,6 +45,7 @@
 		else{}
 	}
 	$conn->close();
+	echo $output;
 
 
 ?>
