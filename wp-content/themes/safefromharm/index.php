@@ -105,6 +105,9 @@
                         <input type="text" name="name" placeholder="John Johnson" required>
                         <label>Email:</label>
                         <input type="email" name="email" placeholder="example@example.com" required>
+                        <label>Donation:</label>
+                        <input id="range" type="range" name="range" value="5" min="1" max="500" oninput="update()" onchange="update()" required>
+                        <div id="value"></div>
                         <label>Card Number:</label>
                         <input type="number" name="card" placeholder="xxxxxxxxxxxxxxxx" required>
                         <label>Expiration Date:</label>

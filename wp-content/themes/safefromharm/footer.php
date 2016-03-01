@@ -29,6 +29,13 @@
                 <a href=""></a>
             </div>
                
-        </footer>        
+        </footer>  
+        <script>
+            function update() {
+                var x = document.getElementById("range").value;
+                document.getElementById("value").innerHTML = x+"$";
+            }
+            update();
+        </script>      
 	</body>
 </html>
