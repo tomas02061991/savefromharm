@@ -1,5 +1,5 @@
 <?php
-	$tempDir = "http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/"
+	$tempDir = "http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/";
 	include $tempDir.'php/createTable.php';
 
 	$name = $_REQUEST["name"];
