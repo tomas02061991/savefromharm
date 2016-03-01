@@ -68,7 +68,7 @@ nav ul li, nav ul li a{
 
 @media (max-width: 1290px){
     nav ul li, nav ul li a{
-        font-size: 3vw;
+        font-size: 1vw;
     }  
 }
 
@@ -79,7 +79,7 @@ nav ul li a:hover{
 
 @media (min-width: 768px){
 .navbar-nav {
-    margin-top: 1vw;
+    margin-top: 1.3vw;
 }
 
 .navbar>.container-fluid .navbar-brand{
@@ -133,6 +133,12 @@ nav ul li a:hover{
     #donate{
         background-image: none;
         width: 100%;
+    }
+}
+
+@media (max-width: 1290px){
+    #donate{
+        font-size: 1.3vw;
     }
 }
 
