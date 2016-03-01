@@ -28,13 +28,18 @@ $(document).on("ready", function () {
                 $("nav").css("background-color", "rgba(0, 0, 0, 0.5)")
                 $("nav ul li a").css("color", "#ffffff")
                 $("nav .logo").attr("src", themePath+"images/logo_hvid.png")
-                $(".navbar-default .navbar-collapse, .navbar-default .navbar-form").css({"background-color": "rgba(0, 0, 0, 0.5)", "border-color":"#fff"});
+                if($(".navbar-collapse").attr("area-expand")){
+                    $(".navbar-default .navbar-collapse, .navbar-default .navbar-form").css({"background-color": "rgba(0, 0, 0, 0.5)", "border-color":"#fff"});
+                }
             }
             if (position <= 5 && bgColor == "rgb(255, 255, 255)") {
                 $("nav").css("background-color", "rgba(255, 255, 255, 0.5)")
                 $("nav ul li a").css("color", "#010f1a")
                 $("nav .logo").attr("src", themePath+"images/logo_sort.png")
-                $(".navbar-default .navbar-collapse, .navbar-default .navbar-form").css({"background-color": "rgba(255, 255, 255, 0.5)", "border-color":"#000"});
+                if($(".navbar-collapse").attr("area-expand")){
+                    $(".navbar-default .navbar-collapse, .navbar-default .navbar-form").css({"background-color": "rgba(255, 255, 255, 0.5)", "border-color":"#000"});
+                }
+               
             }
         });        
     });
