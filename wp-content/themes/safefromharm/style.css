@@ -310,9 +310,10 @@ p{
 
 
 .page#overview{
-    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/bg1.png);
+    background-color: #000;
+    /*background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/bg1.png);
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
 }
 
 body {
