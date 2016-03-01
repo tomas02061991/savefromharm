@@ -126,6 +126,7 @@ nav ul li a:hover{
 @media (max-width: 768px){
     #donate{
         background-image: none;
+        width: 100%;
     }
 }
 
