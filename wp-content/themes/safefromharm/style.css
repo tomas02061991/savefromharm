@@ -103,7 +103,7 @@ nav ul li a:hover{
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(0, 0, 0);
 }
 /*nav{
 	width:100%;
