@@ -354,6 +354,7 @@ footer{
     color: #fff;
     background-color: darkorange;
     border-color: orange;
+    display: none;
 }
 
 .modal-content input[type="submit"]{
