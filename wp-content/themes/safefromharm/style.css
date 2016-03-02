@@ -610,7 +610,7 @@ footer{
 }
 .bx-caption {
     height: 3vw;
-    background: none;
+    background: none!important;
 }
 
 .bx-caption span {
