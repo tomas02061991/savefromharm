@@ -410,7 +410,7 @@ body {
 /*---------------THE TIGER FAMILY--------------*/
 
 .ptigerfamily{
-    font-size: 18px;
+    font-size: 25px;
     letter-spacing: 0.5px;
     font-family: Bebas Neue, 'Open Sans', sans-serif;
     text-align:center; 
@@ -418,6 +418,7 @@ body {
 }
 .ptigerfamily:hover{
     color: #d85913;
+    transition: all 0.5s;
 }
 
 /*---------------WHY THEY MATTER--------------*/
