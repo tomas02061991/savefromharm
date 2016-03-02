@@ -437,6 +437,18 @@ body {
     cursor: pointer;*/
 }
 
+
+/*---------------How & Who-------------------------*/
+#wwf{
+    width: 10vw; 
+    display: inline-block;
+}
+
+#eastpak{
+    width: 15vw; 
+    display: inline-block;
+}
+
 /*---------------INSTAGRAM--------------*/
 
 .page#instagram{
