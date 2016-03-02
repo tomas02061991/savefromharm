@@ -28,7 +28,9 @@
                 </div>
                 <a href=""></a>
             </div>
-               
+             <?php 
+                echo do_shortcode("[metaslider id=199]"); 
+            ?>  
         </footer>  
         <script>
 
@@ -52,10 +54,6 @@
                     $('#donateModal').modal('show');
                 }
             }
-            
-            <?php 
-                echo do_shortcode("[metaslider id=199]"); 
-            ?>
         </script>      
 	</body>
 </html>
