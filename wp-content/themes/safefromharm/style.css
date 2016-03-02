@@ -451,6 +451,7 @@ body {
 #eastpak{
     width: 20vw; 
     display: inline-block;
+    padding: 5vw 0 5vw 0;
 }
 
 @media (max-width: 992px){
