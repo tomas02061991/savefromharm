@@ -1,5 +1,5 @@
         <footer>
-            <div class="boxfooter col-md-4">
+            <div class="boxfooter col-xs-12 col-md-4">
                 <h2 class="footertext">FOLLOW US!</h2>
                 <div class="linkfooter col-md-12">
                     <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
@@ -8,13 +8,13 @@
                 </div>
     
             </div>
-            <div class="boxfooter col-md-4">
+            <div class="boxfooter col-xs-12 col-md-4">
                 <h2 class="footertext">INFO</h2>
                 <div class="boxfooterinfo col-md-10">
                     PLEASE CONTACT US ON THIS EMAIL SEEN BELOW FOR MORE INFORMATION AND FURTHER QUESTIONS:<br><br><i class="fa fa-envelope"></i>  info@safefromharm.com
                 </div>
             </div>
-            <div class="boxfooter col-md-4">
+            <div class="boxfooter col-xs-12 col-md-4">
                 <h2 class="footertext">NEWSLETTER</h2>
                 <div class="boxfooterinfo col-md-10">
                     SIGN UP FOR OUR NEWSLETTER!<br>
