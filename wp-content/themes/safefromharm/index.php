@@ -6,7 +6,7 @@
 			<div class="page" id="ourmission">
                 <?php  
                     foreach ( $pages as $page ) {
-                        if($page->post_name == "ourmission"){
+                        if($page->post_name == "our-mission"){
                             echo $page->post_content;
                         }
                     }

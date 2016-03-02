@@ -43,12 +43,3 @@
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
-        <!-- <nav>
-            <div class="logo col-md-2" id="logo">
-                <a href="#home">
-                    <img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo_hvid.png" alt=""/>
-                </a>
-            </div>
-            <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-            <div id="donate" data-toggle="modal" data-target="#donateModal">DONATE</div>
-		</nav> -->
