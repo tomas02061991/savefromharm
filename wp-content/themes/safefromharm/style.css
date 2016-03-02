@@ -419,6 +419,7 @@ body {
 .ptigerfamily:hover{
     color: #d85913;
     transition: all 0.5s;
+    cursor: pointer;    
 }
 
 /*---------------WHY THEY MATTER--------------*/
