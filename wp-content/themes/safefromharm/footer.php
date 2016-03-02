@@ -45,7 +45,7 @@
                     $("#donateAlert").html("Thank you for your donation! An email will be send for confirmation.");
                     $("#donateAlert").css("display", "block");
                     $('#donateModal').modal('show');
-                } else{
+                } else if(success == 0){
                     $("#donateAlert").html("Something went wrong. You cannot donate at this time.");
                     $("#donateAlert").css("display", "block");
                     $('#donateModal').modal('show');
