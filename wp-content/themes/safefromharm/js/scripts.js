@@ -2,7 +2,7 @@ const themePath = "http://safefromharm.cryolab.dk/wp-content/themes/safefromharm
 
 $(document).on("ready", function () {
 
-    $('.bxslider').bxSlider({slideWidth:500});
+    $('.bxslider').bxSlider({slideWidth:5000});
 
     $("#menu-primary").removeClass("menu");
     $("#menu-primary").addClass("nav navbar-nav");
