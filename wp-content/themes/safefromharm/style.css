@@ -614,3 +614,19 @@ footer{
 .bx-wrapper img {
     margin: 0 auto;
 }
+.bx-caption {
+    height: 3vw;
+}
+
+.bx-caption span {
+    color: #fff;
+    font-family: Bebas Neue, 'Open Sans', sans-serif;
+    font-weight: bold;
+    display: block;
+    font-size: 1em;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    height: 3vw;
+    background-color: rgba(0,0,0,.5);
+}
