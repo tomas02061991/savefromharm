@@ -525,17 +525,17 @@ footer{
 }
 
 #mc_embed_signup .button{
-    color: #FFF;
+    color: #FFF!important;
     font-family: Bebas Neue, 'Open Sans', sans-serif;
-    font-weight: bold
-    width: 7.5vw;
-    height: 2.5vw;
-    font-size: 18px;
-    letter-spacing: 0.5px;
-    text-align: center;
-    border-radius: 0;
-    background-color: darkorange;
-    margin: 10px;
+    font-weight: bold!important;
+    width: 7.5vw!important;
+    height: 2.5vw!important;
+    font-size: 18px!important;
+    letter-spacing: 0.5px!important;
+    text-align: center!important;
+    border-radius: 0!important;
+    background-color: darkorange!important;
+    margin: 10px!important;
 }
 
 /*---------------MODALS--------------*/
