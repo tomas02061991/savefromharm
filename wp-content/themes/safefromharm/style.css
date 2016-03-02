@@ -617,10 +617,24 @@ footer{
     color: #fff;
     font-family: Avenir Next LT Pro Medium Condensed, 'Open Sans', sans-serif!important;
     display: block;
-    font-size: 1.2em!important;
+    font-size: .8vw!important;
     width: 50%;
     margin: 0 auto;
     text-align: center;
     height: 5vw;
     background-color: rgb(0,0,0);
+}
+
+@media (max-width: 100px){
+    .bx-caption, .bx-caption span {
+        font-size: 1vw!important;
+        height: 8vw;
+    }
+}
+
+@media (max-width: 767px){
+    .bx-caption, .bx-caption span {
+        font-size: 1.35vw!important;
+        height: 13vw;
+    }
 }
