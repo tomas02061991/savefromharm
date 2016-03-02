@@ -428,7 +428,7 @@ body {
 /*---------------SUPPORT THE TIGERS - DONATE--------------*/
 
 .donatebtn{
-    background-color: rbga(0, 0, 0, 0);
+    background-color: rbga(0, 0, 0, 0) !important;
     margin: auto;
     text-align: center;
     background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/tiger_button1.png);
@@ -438,7 +438,7 @@ body {
 }
 
 .donatebtn:hover{
-    background-color: rbga(0, 0, 0, 0);
+    background-color: rbga(0, 0, 0, 0) !important;
 }
 
 
