@@ -3,10 +3,10 @@
     
 ?>		
 <main>
-			<div class="page" id="home">
+			<div class="page" id="ourmission">
                 <?php  
                     foreach ( $pages as $page ) {
-                        if($page->post_name == "home"){
+                        if($page->post_name == "ourmission"){
                             echo $page->post_content;
                         }
                     }
