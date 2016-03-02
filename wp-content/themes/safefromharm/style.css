@@ -609,7 +609,7 @@ footer{
     margin: 0 auto;
 }
 .bx-caption {
-    height: 3vw;
+    height: 4vw;
     background: none!important;
 }
 
@@ -622,6 +622,6 @@ footer{
     width: 50%;
     margin: 0 auto;
     text-align: center;
-    height: 3vw;
+    height: 4vw;
     background-color: rgb(0,0,0);
 }
