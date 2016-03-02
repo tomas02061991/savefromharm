@@ -10,7 +10,7 @@ $(document).on("ready", function () {
 	//dette er istedet for at skrive on("click", funktionsNavn), så kan man bare definere funktionen direkte i kaldet
     $(".navbar-brand").on("click", function() {
 	    $('html, body').animate({
-	        scrollTop: $("#home").offset().top
+	        scrollTop: $("#ourmission").offset().top
 	    }, 1500);
 	});
 	$("nav ul li a").on("click", function() {
