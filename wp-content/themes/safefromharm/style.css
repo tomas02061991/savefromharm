@@ -410,44 +410,50 @@ body {
 /*---------------THE TIGER FAMILY--------------*/
 
 .tigerbox1{
+    margin: 10px;
+    height: 300px;
     background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/bengal_tiger1.png);
-    background-size: 100%;
-    opacity: 50%;
+    background-size: 90%;
     background-repeat: no-repeat;   
 }
 
 .tigerbox2{
+    margin: 10px;
+    height: 300px;
     background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/amur_sibirisk_tiger.png);
-    background-size: 100%;
-    opacity: 50%;
+    background-size: 90%;
     background-repeat: no-repeat;
 }
 
 .tigerbox3{
+    margin: 10px;
+    height: 300px;
     background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/malayan_tiger.png);
-    background-size: 100%;
-    opacity: 50%;
+    background-size: 90%;
     background-repeat: no-repeat;
 }
 
 .tigerbox4{
+    margin: 10px;
+    height: 300px;
     background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/sumatran_tiger.png);
-    background-size: 100%;
-    opacity: 50%;
+    background-size: 90%;
     background-repeat: no-repeat;
 }
 
 .tigerbox5{
+    margin: 10px;
+    height: 300px;
     background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/indochinese_tiger.png);
-    background-size: 100%;
-    opacity: 50%;
+    background-size: 90%;
     background-repeat: no-repeat;
 }
 
 .tigerbox6{
+    margin: 10px;
+    height: 300px;
     background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/south_china_tiger.png);
-    background-size: 100%;
-    opacity: 50%;
+    background-size: 90%;
     background-repeat: no-repeat;
 }
 
