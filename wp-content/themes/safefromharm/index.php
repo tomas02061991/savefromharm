@@ -139,7 +139,7 @@
                 </div>
               </div>
             </div>
-            <?php include "/var/www/savefromharm/wp-content/themes/safefromharm//lightboxes.php" ?>
+            <?php include "/var/www/savefromharm/wp-content/themes/safefromharm/lightboxes.php" ?>
 		</main>
 <?php get_footer();
 ?>
