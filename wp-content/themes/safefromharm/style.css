@@ -524,6 +524,20 @@ footer{
     transition: all 0.5s;
 }
 
+#mc_embed_signup .button{
+    color: #FFF;
+    font-family: Bebas Neue, 'Open Sans', sans-serif;
+    font-weight: bold
+    width: 7.5vw;
+    height: 2.5vw;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    border-radius: 0;
+    background-color: darkorange;
+    margin: 10px;
+}
+
 /*---------------MODALS--------------*/
 
 .modal-header{
