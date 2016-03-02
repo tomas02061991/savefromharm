@@ -653,6 +653,11 @@ footer{
     }
 
     .boxfooter{
-    margin-top: 10vw;
-}
+        margin-top: 10vw;
+    }
+
+    #mc_embed_signup .button{
+        width: 29.5vw!important;
+        height: 8.5vw!important;    
+    }
 }
