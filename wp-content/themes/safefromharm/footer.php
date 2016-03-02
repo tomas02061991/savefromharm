@@ -27,10 +27,7 @@
                     </form>
                 </div>
                 <a href=""></a>
-            </div>
-             <?php 
-                echo do_shortcode("[metaslider id=199]"); 
-            ?>  
+            </div> 
         </footer>  
         <script>
 

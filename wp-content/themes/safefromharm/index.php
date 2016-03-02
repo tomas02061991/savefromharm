@@ -53,6 +53,7 @@
                     foreach ( $pages as $page ) {
                         if($page->post_name == "they-matter"){
                             echo $page->post_content;
+                            echo do_shortcode("[metaslider id=199]"); 
                         }
                     }
                  ?>
