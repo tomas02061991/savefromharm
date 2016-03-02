@@ -219,7 +219,7 @@ h4{
 p{
     font-family: Avenir Next LT Pro Medium Condensed, 'Open Sans', sans-serif;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 18px;
 }
     
 
@@ -371,6 +371,10 @@ body {
 
 
 /*---------------SUPPORT THE TIGERS - DONATE--------------*/
+
+.smallpage#supporttigers{
+    min-height: 40vw;
+}
 
 .donatebtn{
     background-color: #d85913 !important;
