@@ -538,6 +538,13 @@ footer{
     margin: 10px!important;
 }
 
+#mc_embed_signup #mce-success-response{
+    color: darkorange!important;
+}
+
+#mc_embed_signup .mc-field-group input{
+    color: #000!important;
+}
 /*---------------MODALS--------------*/
 
 .modal-header{
