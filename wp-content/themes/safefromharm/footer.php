@@ -1,7 +1,7 @@
         <footer>
             <div class="boxfooter col-xs-12 col-md-4">
                 <h2 class="footertext">FOLLOW US!</h2>
-                <div class="linkfooter col-md-12">
+                <div class="linkfooter">
                     <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
                     <a href="https://www.facebook.com/"><i class="fa fa-facebook-official"></i></a>
                         <a href=""></a>
@@ -10,17 +10,17 @@
             </div>
             <div class="boxfooter col-xs-12 col-md-4">
                 <h2 class="footertext">INFO</h2>
-                <div class="boxfooterinfo col-md-10">
+                <div class="boxfooterinfo">
                     PLEASE CONTACT US ON THIS EMAIL SEEN BELOW FOR MORE INFORMATION AND FURTHER QUESTIONS:<br><br><i class="fa fa-envelope"></i>  info@safefromharm.com
                 </div>
             </div>
             <div class="boxfooter col-xs-12 col-md-4">
                 <h2 class="footertext">NEWSLETTER</h2>
-                <div class="boxfooterinfo col-md-10">
+                <div class="boxfooterinfo">
                     SIGN UP FOR OUR NEWSLETTER!<br>
                     BE THE FIRST TO HEAR ABOUT NEWS AND OUR EVENTS.
                     <form action="msg_sent.php">
-                        <div class="input-group col-md-12">
+                        <div class="input-group">
                             <input class="form-control" type="email" name="email" placeholder="Enter your email" required><br>
                             <input class="btn" type="submit" value="SUBMIT">
                         </div>
