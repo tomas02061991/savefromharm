@@ -1,6 +1,9 @@
 const themePath = "http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/";
 
 $(document).on("ready", function () {
+
+    $('.bxslider').bxSlider();
+
     $("#menu-primary").removeClass("menu");
     $("#menu-primary").addClass("nav navbar-nav");
 	//når man klikker på knappen med id #to1, starter den funktion som vi beskriver inden i on()
