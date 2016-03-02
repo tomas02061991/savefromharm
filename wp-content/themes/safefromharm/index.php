@@ -12,15 +12,6 @@
                     }
                  ?>
             </div>
-            <div class="page smallpage" id="ourmission">
-                <?php  
-                    foreach ( $pages as $page ) {
-                        if($page->post_name == "our-mission"){
-                            echo $page->post_content;
-                        }
-                    }
-                 ?>
-            </div>
 			<div class="page" id="overview">
                 <?php  
                     foreach ( $pages as $page ) {
