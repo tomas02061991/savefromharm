@@ -427,6 +427,7 @@ body {
     background-size: 100%;
     opacity: 50%;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 
