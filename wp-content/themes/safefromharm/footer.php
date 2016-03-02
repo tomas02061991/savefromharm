@@ -39,7 +39,7 @@
             }
             update();
 
-            var success = <?php if(isset($_REQUEST["success"])){echo $_REQUEST["success"];}else{echo "";} ?>;
+            var success = <?php if(isset($_REQUEST["success"])){echo $_REQUEST["success"];}else{echo "-1";} ?>;
             if(success){
                 if(success == 1){
                     $("#donateAlert").html("Thank you for your donation! An email will be send for confirmation.");
