@@ -410,7 +410,6 @@ body {
 /*---------------THE TIGER FAMILY--------------*/
 
 .tigerbox1{
-    margin: 10px;
     height: 300px;
     background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/bengal_tiger1.png);
     background-size: 90%;
@@ -418,7 +417,6 @@ body {
 }
 
 .tigerbox2{
-    margin: 10px;
     height: 300px;
     background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/amur_sibirisk_tiger.png);
     background-size: 90%;
@@ -426,7 +424,6 @@ body {
 }
 
 .tigerbox3{
-    margin: 10px;
     height: 300px;
     background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/malayan_tiger.png);
     background-size: 90%;
@@ -434,7 +431,6 @@ body {
 }
 
 .tigerbox4{
-    margin: 10px;
     height: 300px;
     background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/sumatran_tiger.png);
     background-size: 90%;
@@ -442,7 +438,6 @@ body {
 }
 
 .tigerbox5{
-    margin: 10px;
     height: 300px;
     background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/indochinese_tiger.png);
     background-size: 90%;
@@ -450,7 +445,6 @@ body {
 }
 
 .tigerbox6{
-    margin: 10px;
     height: 300px;
     background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/south_china_tiger.png);
     background-size: 90%;
