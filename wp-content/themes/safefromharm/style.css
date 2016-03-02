@@ -245,10 +245,8 @@ p{
     #ourmission p{
         font-size: 2vw;
     }
-}
 
-@media (max-width: 1320px){
-  .page#ourmission{
+    .page#ourmission{
     min-height: 30vw; 
   }  
 }
