@@ -1,7 +1,7 @@
 /*!
         Theme Name: Safe From Harm
         Theme URI: http://cryolab.dk
-        Author: Tomas Nielsen & Camilla lauridsen
+        Author: Tomas Nielsen & Camilla K. Lauridsen
         Author URI: http://cryolab.dk/
         Description: This theme is special designed for and Multimedia Design school project
         Version: 1.0
@@ -297,19 +297,13 @@ p{
     
 
 /*---------------Frontpage--------------*/
-
-.page#home{
+/*---------------OUR MISSION-------------*/
+.page#ourmission{
     background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/front3.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: #000;
 }
-
-/*---------------OUR MISSION--------------*/
-
-
-
-
 
 
 /*---------------OVERVIEW--------------*/
