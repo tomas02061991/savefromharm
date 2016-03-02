@@ -193,7 +193,7 @@ h1{
     font-size: 1vw;
 }
 
-@media (max-width: 1430px){
+@media (max-width: 1200px){
     #ourmission p{
         font-size: 2vw;
     }
