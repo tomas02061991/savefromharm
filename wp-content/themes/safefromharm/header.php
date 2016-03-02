@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>Safe From Harm - Safe the last tigers</title>
         <meta name="author" content="Camilla Krarup Lauridsen &amp; Tomas Nielsen ">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/bootstrap/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
@@ -12,6 +13,8 @@
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
+
+        <?php $success; ?>
     </head>
     
 	<body <?php body_class(); ?>>
