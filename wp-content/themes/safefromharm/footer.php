@@ -52,6 +52,10 @@
                     $('#donateModal').modal('show');
                 }
             }
+            
+            <?php 
+                echo do_shortcode("[metaslider id=199]"); 
+            ?>
         </script>      
 	</body>
 </html>
