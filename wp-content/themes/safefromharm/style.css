@@ -583,6 +583,11 @@ footer{
     letter-spacing: 1px;
 }
 
+.modal{
+    width: 99vw!important;
+    padding-right: 0!important;
+}
+
 #value{
     font-family: Bebas Neue, 'Open Sans', sans-serif;
     font-weight: bold;
