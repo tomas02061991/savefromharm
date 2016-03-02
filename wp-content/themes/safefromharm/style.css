@@ -189,6 +189,16 @@ h1{
     font-size: 4vw;
 }
 
+#ourmission p{
+    font-size: 1.3vw;
+}
+
+@media (max-width: 1300px){
+    #ourmission p{
+        font-size: 2vw;
+    }
+}
+
 h2{
     text-align: center;
     font-size: 35px;
