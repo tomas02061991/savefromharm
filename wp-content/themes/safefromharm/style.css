@@ -428,19 +428,14 @@ body {
 /*---------------SUPPORT THE TIGERS - DONATE--------------*/
 
 .donatebtn{
-    background-color: rbga(0, 0, 0, 0) !important;
+    background-color: #d85913 !important;
     margin: auto;
     text-align: center;
-    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/tiger_button1.png);
+    /*background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/tiger_button1.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    cursor: pointer;
+    cursor: pointer;*/
 }
-
-.donatebtn:hover{
-    background-color: rbga(0, 0, 0, 0) !important;
-}
-
 
 /*---------------INSTAGRAM--------------*/
 
@@ -547,6 +542,7 @@ footer{
 .btn-default:hover, .btn-default:focus, .btn-default:active{
     background-color: orange!important;
     border: 0;
+    transition: all 0.5s;
 }
 
 .btn-default{
