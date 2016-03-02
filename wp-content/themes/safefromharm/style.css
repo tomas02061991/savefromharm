@@ -651,4 +651,8 @@ footer{
         font-size: 1.35vw!important;
         height: 13vw;
     }
+
+    .boxfooter{
+    margin-top: 10vw;
+}
 }
