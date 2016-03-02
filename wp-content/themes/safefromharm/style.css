@@ -17,8 +17,10 @@ html,body{
 }
 
 .page{
+    display: flex;
+    flex-direction: column;
 	width: 100%;
-	height: 100vh;
+	min-height: 100vh;
     border: 1px solid;
     font-family: 'Open Sans', sans-serif;
     background-color: #fff;
@@ -26,7 +28,7 @@ html,body{
 
 .smallpage{
     width: 100%;
-	height: 50vh;
+	min-height: 50vh;
     border: 1px solid;
     font-family: Bebas Neue, 'Open Sans', sans-serif;
     background-color: #000;
@@ -279,6 +281,10 @@ h3{
     color: darkorange;
 }
 
+h4{
+    font-size: 25px;   
+}
+
 p{
     font-family: Avenir Next LT Pro Medium Condensed, 'Open Sans', sans-serif;
     color: #ffffff;
@@ -306,9 +312,92 @@ p{
 
 
 .page#overview{
-    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/bg1.png);
+    background-color: #000;
+    /*background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/bg1.png);
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.pgraf{
+  color:#fff;
+  font-size:13px;
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background-color: rgba(238, 238, 238, 0.05);
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+    width:150px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
 }
 
 
@@ -320,7 +409,53 @@ p{
 
 /*---------------THE TIGER FAMILY--------------*/
 
+.tigerbox1{
+    margin: 10px;
+    height: 300px;
+    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/bengal_tiger1.png);
+    background-size: 90%;
+    background-repeat: no-repeat;   
+}
 
+.tigerbox2{
+    margin: 10px;
+    height: 300px;
+    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/amur_sibirisk_tiger.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.tigerbox3{
+    margin: 10px;
+    height: 300px;
+    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/malayan_tiger.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.tigerbox4{
+    margin: 10px;
+    height: 300px;
+    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/sumatran_tiger.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.tigerbox5{
+    margin: 10px;
+    height: 300px;
+    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/indochinese_tiger.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.tigerbox6{
+    margin: 10px;
+    height: 300px;
+    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/south_china_tiger.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
 
 /*---------------WHY THEY MATTER--------------*/
 
@@ -332,12 +467,13 @@ p{
 .donatebutton{
     margin-left: 40.5%;
     width: 19vw;
-    height: 4vw;
+    height: 5vw;
     text-align: center;
-    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/tiger_button.png);
+    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/tiger_button1.png);
     background-size: 100%;
     opacity: 50%;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 
@@ -430,7 +566,7 @@ footer{
 /*---------------MODALS--------------*/
 
 .modal-header{
-    border-bottom: 1px solid #111;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 
 .modal-title{
@@ -438,6 +574,7 @@ footer{
     color: darkorange;
     text-align: center;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .btn-default:hover, .btn-default:focus, .btn-default:active{
@@ -460,6 +597,7 @@ footer{
     margin-top: 10px;
     font-weight: bold;
     color: darkorange;
+    letter-spacing: 1px;
 }
 
 #value{
@@ -482,6 +620,7 @@ footer{
     margin-top: 10px;
     font-family: Bebas Neue, 'Open Sans', sans-serif;
     font-weight: bold;
+    letter-spacing: 1px;
     border: 0;
     background-color: darkorange
 }
@@ -492,7 +631,8 @@ footer{
 }
 
 .modal-footer{
-    border-top: 1px solid #111;
+    border-top: 1px solid rgba(0, 0, 0, 0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 
 @media (min-width: 768px){
