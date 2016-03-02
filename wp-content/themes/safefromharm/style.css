@@ -409,7 +409,47 @@ body {
 
 /*---------------THE TIGER FAMILY--------------*/
 
+.tigerbox1{
+    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/bengal_tiger1.png);
+    background-size: 100%;
+    opacity: 50%;
+    background-repeat: no-repeat;   
+}
 
+.tigerbox2{
+    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/amur_sibirisk_tiger.png);
+    background-size: 100%;
+    opacity: 50%;
+    background-repeat: no-repeat;
+}
+
+.tigerbox3{
+    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/malayan_tiger.png);
+    background-size: 100%;
+    opacity: 50%;
+    background-repeat: no-repeat;
+}
+
+.tigerbox4{
+    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/sumatran_tiger.png);
+    background-size: 100%;
+    opacity: 50%;
+    background-repeat: no-repeat;
+}
+
+.tigerbox5{
+    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/indochinese_tiger.png);
+    background-size: 100%;
+    opacity: 50%;
+    background-repeat: no-repeat;
+}
+
+.tigerbox6{
+    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/south_china_tiger.png);
+    background-size: 100%;
+    opacity: 50%;
+    background-repeat: no-repeat;
+}
 
 /*---------------WHY THEY MATTER--------------*/
 
