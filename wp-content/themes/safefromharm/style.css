@@ -623,6 +623,7 @@ footer{
     text-align: center;
     height: 5vw;
     background-color: rgb(0,0,0);
+    padding: .5vw!important;
 }
 
 @media (max-width: 100px){
