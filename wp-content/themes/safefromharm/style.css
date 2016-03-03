@@ -100,7 +100,7 @@ nav ul li a:hover{
     cursor: pointer;
 }
 
-@media (min-width: 768px){
+@media (max-width: 768px){
     .logo{
         width: 7vw;
     }    
