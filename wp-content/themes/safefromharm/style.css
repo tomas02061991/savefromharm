@@ -373,8 +373,8 @@ body {
 }
 
 @media (min-height: 768px){
-    .page#map{
-        min-height: 30vh;
+    .page#themap{
+        min-height: 40vh;
     }    
 }
 
