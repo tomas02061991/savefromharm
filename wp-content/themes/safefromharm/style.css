@@ -410,7 +410,7 @@ body {
 }
 
 .donatebtn{
-    background-color: #d85913 !important;
+    background-color: darkorange !important;
     margin: auto;
     text-align: center;
     /*background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/tiger_button1.png);
@@ -583,7 +583,7 @@ footer{
 }
 
 .btn-default:hover, .btn-default:focus, .btn-default:active{
-    background-color: #d85913!important;
+    background-color: #d86213!important;
     border: 0;
     transition: all 0.5s;
 }
