@@ -7,7 +7,10 @@ $(document).on("ready", function () {
     $("#mapbtn").on("click", function(){
         if(($this).html() == "BEFORE"){
             $(this).html("AFTER");
-            
+            $("#map img").attr("src", "http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/themap_now.jpg")
+        } else{
+            $(this).html("BEFORE");
+            $("#map img").attr("src", "")
         }
     });
 
