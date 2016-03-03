@@ -144,6 +144,10 @@ nav ul li a:hover{
         right: auto;
         width: 100%;
     }
+
+    #donate:hover{
+        color: darkorange!important
+    }
 }
 
 @media (max-width: 1290px){
