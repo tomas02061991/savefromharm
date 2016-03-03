@@ -509,6 +509,12 @@ footer{
     margin: 10px;
 }
 
+@media (max-width: 767px){
+    .btn{
+        width: 41.5vw!important;
+        height: 10.5vw!important;
+    }
+}
 .btn:hover{
     transition: all 0.5s;
 }
