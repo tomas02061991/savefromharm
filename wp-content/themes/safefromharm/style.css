@@ -205,7 +205,6 @@ h2{
     font-family: Bebas Neue, 'Open Sans', sans-serif;
     color: #000000;
     margin: 0 auto;
-    margin-top: 2vw;
     padding: 1vw;
 }
 
@@ -373,6 +372,11 @@ body {
     margin: 0 auto;
 }
 
+@media (min-height: 768px){
+    .page#map{
+        min-height: 30vh;
+    }    
+}
 
 
 /*---------------THE TIGER FAMILY--------------*/
@@ -418,7 +422,7 @@ body {
 }
 
 @media (min-height: 768px){
-    #supporttigers{
+    .smallpage#supporttigers{
         min-height: 25vh;
     }    
 }
