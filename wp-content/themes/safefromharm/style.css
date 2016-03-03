@@ -603,6 +603,11 @@ footer{
 }
 }
 
+@media (min-width: 768px){
+.tigerModal {
+    margin: 1vw auto;
+}
+}
 .bx-wrapper img {
     margin: 0 auto;
 }
