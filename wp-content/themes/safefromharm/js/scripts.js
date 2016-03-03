@@ -4,6 +4,13 @@ $(document).on("ready", function () {
 
     $('.bxslider').bxSlider({slideWidth:5000, maxSlides:1, minSlides:1, captions: true});
 
+    $("#mapbtn").on("click", function(){
+        if(($this).html() == "BEFORE"){
+            $(this).html("AFTER");
+            
+        }
+    });
+
     $("#menu-primary").removeClass("menu");
     $("#menu-primary").addClass("nav navbar-nav");
 	//når man klikker på knappen med id #to1, starter den funktion som vi beskriver inden i on()
