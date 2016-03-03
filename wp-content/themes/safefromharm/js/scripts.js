@@ -34,6 +34,16 @@ $(document).on("ready", function () {
 
     $(function(){
     $(window).bind('scroll', function() {
+
+        var pos = $("#overview").position().top - $(window).scrollTop();
+        if(pos <= 20){
+                jQuery('.skillbar').each(function(){
+                jQuery(this).find('.skillbar-bar').animate({
+                 width:jQuery(this).attr('data-percent')
+                },3000);
+                });
+        } 
+
         $('.page').each(function() {
             var page = $(this);
             var position = page.position().top - $(window).scrollTop();
@@ -70,18 +80,5 @@ $(document).on("ready", function () {
         });        
     });
 });
-    
-    
-    $(function(){
-    $(window).bind('scroll', function() {
-        if ($("#overview").position().top == $(window).scrollTop()){
-                jQuery('.skillbar').each(function(){
-		        jQuery(this).find('.skillbar-bar').animate({
-			     width:jQuery(this).attr('data-percent')
-		        },3000);
-	            });
-        }        
-        
-    });
-});
+
 });
