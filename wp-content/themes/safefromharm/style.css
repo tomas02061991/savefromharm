@@ -21,7 +21,6 @@ html,body{
     flex-direction: column;
 	width: 100%;
 	min-height: 100vh;
-    border: 1px solid;
     font-family: 'Open Sans', sans-serif;
     background-color: #fff;
 }
@@ -265,6 +264,7 @@ p{
 
 .page#overview{
     background-color: #000;
+    min-height: 85vh;
     /*background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/bg1.png);
     background-size: 100%;
     background-repeat: no-repeat;*/
