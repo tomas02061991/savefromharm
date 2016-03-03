@@ -101,7 +101,9 @@ nav ul li a:hover{
 }
 
 @media (min-width: 768px){
+    .logo{
     width: 7vw;
+    }    
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -158,7 +160,6 @@ nav ul li a:hover{
         font-size: 1.3vw;
     }
 }
-
 
 .navbar-right{
     margin: 0;
