@@ -100,6 +100,10 @@ nav ul li a:hover{
     cursor: pointer;
 }
 
+@media (min-width: 768px){
+    width: 7vw;
+}
+
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color: darkorange;
 }
@@ -183,7 +187,7 @@ h1{
     font-size: 75px;
     font-weight: 500;
     letter-spacing: 1px;
-    line-height: 1.1;
+    line-height: 8;
     font-family: Bebas Neue, 'Open Sans', sans-serif;
     color: #ffffff;
     margin-top: 15vw;
@@ -196,7 +200,7 @@ h2{
     font-size: 35px;
     letter-spacing: 1px;
     font-weight: bold;
-    line-height: 5vw;
+    line-height: 1vw;
     font-family: Bebas Neue, 'Open Sans', sans-serif;
     color: #000000;
     margin: 0 auto;
@@ -400,6 +404,9 @@ body {
 
 /*---------------WHY THEY MATTER--------------*/
 
+.page#whytheymatter{
+    min-height: 30vh;
+}
 
 
 
@@ -417,6 +424,12 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     cursor: pointer;*/
+}
+
+@media (max-width: 768px){
+    #donatebtn{
+        margin-top: 10vw;
+    }    
 }
 
 
@@ -454,6 +467,12 @@ body {
     background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/bg_paws.png);
     background-size: 100%;
     opacity: 50%;
+}
+
+@media (max-width: 768px){
+    #instagram{
+        min-height: 30vh;
+    }    
 }
 
 
