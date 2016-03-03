@@ -187,7 +187,7 @@ h1{
     font-size: 75px;
     font-weight: 500;
     letter-spacing: 1px;
-    line-height: 8;
+    line-height: 1.1;
     font-family: Bebas Neue, 'Open Sans', sans-serif;
     color: #ffffff;
     margin-top: 15vw;
@@ -200,7 +200,7 @@ h2{
     font-size: 35px;
     letter-spacing: 1px;
     font-weight: bold;
-    line-height: 1vw;
+    line-height: 7vw;
     font-family: Bebas Neue, 'Open Sans', sans-serif;
     color: #000000;
     margin: 0 auto;
