@@ -349,7 +349,9 @@ body {
 #map{
     background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/themap_before.jpg);
     background-size: 100%;
+    background-repeat: no-repeat;
     width: 98vw;
+    height: 41vw;
     margin: 0 auto;
 }
 
