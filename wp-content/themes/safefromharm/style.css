@@ -133,11 +133,15 @@ nav ul li a:hover{
     height: 13vw;
     background-image: url("http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/donate_flag.png"); 
     background-size: auto 100%;
+    position: absolute;
+    right: 1vw;
 }
 
 @media (max-width: 768px){
     #donate{
         background-image: none;
+        position: relative;
+        right: auto;
         width: 100%;
     }
 }
