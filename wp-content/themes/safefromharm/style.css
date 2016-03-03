@@ -438,8 +438,8 @@ body {
 }
 
 @media (max-width: 768px){
-    #donatebtn{
-        margin-top: 10vw;
+    .donatebtn{
+        margin-top: 13vw;
     }    
 }
 
