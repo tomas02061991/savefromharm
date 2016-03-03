@@ -4,7 +4,7 @@
                     <h2 class="footertext">FOLLOW US!</h2>
                     <div class="linkfooter">
                         <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
-                        <a href="https://www.facebook.com/"><i class="fa fa-facebook-official"></i></a>
+                        <a href="https://www.facebook.com/groups/172642493116555/"><i class="fa fa-facebook-official"></i></a>
                             <a href=""></a>
                     </div>
         
