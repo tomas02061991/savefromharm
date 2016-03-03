@@ -102,7 +102,7 @@ nav ul li a:hover{
 
 @media (min-width: 768px){
     .logo{
-    width: 7vw;
+        width: 7vw;
     }    
 }
 
@@ -415,6 +415,12 @@ body {
 
 .smallpage#supporttigers{
     min-height: 40vh;
+}
+
+@media (min-height: 768px){
+    #supporttigers{
+        min-height: 25vh;
+    }    
 }
 
 .donatebtn{
