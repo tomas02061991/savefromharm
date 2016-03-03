@@ -5,7 +5,7 @@ $(document).on("ready", function () {
     $('.bxslider').bxSlider({slideWidth:5000, maxSlides:1, minSlides:1, captions: true});
 
     $("#mapbtn").on("click", function(){
-        if(($this).html() == "BEFORE"){
+        if($(this).html() == "BEFORE"){
             $(this).html("AFTER");
             $("#map img").attr("src", "http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/themap_now.jpg")
         } else{
