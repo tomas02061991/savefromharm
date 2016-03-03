@@ -1,6 +1,6 @@
 <!-- tiger1 -->
 <div class="modal fade" id="tiger1" tabindex="-1" role="dialog" aria-labelledby="tiger1">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog tigerModal" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h4 class="modal-title" id="myModalLabel">Bengal Tiger</h4>
@@ -21,7 +21,7 @@
 
 <!-- tiger2 -->
 <div class="modal fade" id="tiger2" tabindex="-1" role="dialog" aria-labelledby="tiger2">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog tigerModal" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h4 class="modal-title" id="myModalLabel">Amur Tiger</h4>
@@ -46,7 +46,7 @@
 
 <!-- tiger3 -->
 <div class="modal fade" id="tiger3" tabindex="-1" role="dialog" aria-labelledby="tiger3">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog tigerModal" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h4 class="modal-title" id="myModalLabel">Malayan Tiger</h4>
@@ -67,7 +67,7 @@
 
 <!-- tiger4 -->
 <div class="modal fade" id="tiger4" tabindex="-1" role="dialog" aria-labelledby="tiger4">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog tigerModal" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h4 class="modal-title" id="myModalLabel">Sumatran Tiger</h4>
@@ -90,7 +90,7 @@
 
 <!-- tiger5 -->
 <div class="modal fade" id="tiger5" tabindex="-1" role="dialog" aria-labelledby="tiger5">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog tigerModal" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h4 class="modal-title" id="myModalLabel">Indochinese Tiger</h4>
@@ -113,7 +113,7 @@
 
 <!-- tiger6 -->
 <div class="modal fade" id="tiger6" tabindex="-1" role="dialog" aria-labelledby="tiger6">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog tigerModal" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h4 class="modal-title" id="myModalLabel">South China Tiger</h4>

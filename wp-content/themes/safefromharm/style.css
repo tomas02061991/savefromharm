@@ -133,12 +133,20 @@ nav ul li a:hover{
     height: 13vw;
     background-image: url("http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/donate_flagny.png"); 
     background-size: auto 100%;
+    position: absolute;
+    right: 1vw;
 }
 
 @media (max-width: 768px){
     #donate{
         background-image: none;
+        position: relative;
+        right: auto;
         width: 100%;
+    }
+
+    #donate:hover{
+        color: darkorange!important
     }
 }
 
@@ -346,11 +354,29 @@ body {
 
 /*---------------THE MAP - TIGER POPULATION--------------*/
 
-
+#map{
+    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/themap_before.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    width: 98vw;
+    height: 41vw;
+    margin: 0 auto;
+}
 
 
 
 /*---------------THE TIGER FAMILY--------------*/
+.tigerFamily{
+    cursor: pointer;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+}
 
 .ptigerfamily{
     font-size: 25px;
@@ -359,10 +385,16 @@ body {
     text-align:center; 
     color: darkorange;
 }
-.ptigerfamily:hover{
+.tigerFamily:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.tigerFamily:hover .ptigerfamily{
     color: #d85913;
     transition: all 0.5s;
-    cursor: pointer;    
+    
 }
 
 /*---------------WHY THEY MATTER--------------*/
@@ -498,6 +530,12 @@ footer{
     margin: 10px;
 }
 
+@media (max-width: 767px){
+    .btn{
+        width: 41.5vw!important;
+        height: 10.5vw!important;
+    }
+}
 .btn:hover{
     transition: all 0.5s;
 }
@@ -603,6 +641,11 @@ footer{
 }
 }
 
+@media (min-width: 768px){
+.tigerModal {
+    margin: 1vw auto;
+}
+}
 .bx-wrapper img {
     margin: 0 auto;
 }

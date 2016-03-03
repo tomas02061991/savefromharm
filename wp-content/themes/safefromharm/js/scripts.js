@@ -4,6 +4,18 @@ $(document).on("ready", function () {
 
     $('.bxslider').bxSlider({slideWidth:5000, maxSlides:1, minSlides:1, captions: true});
 
+    $("#mapbtn").on("click", function(){
+        if($(this).html() == "BEFORE"){
+            $(this).html("AFTER");
+            $("#map img").fadeOut(0.5, function(){$("#map img").attr("src", "http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/themap_now.jpg");});
+            $("#map img").fadeIn();
+        } else{
+            $(this).html("BEFORE");
+            $("#map img").fadeOut(0.5, function(){$("#map img").attr("src", "");});
+            $("#map img").fadeIn();
+        }
+    });
+
     $("#menu-primary").removeClass("menu");
     $("#menu-primary").addClass("nav navbar-nav");
 	//når man klikker på knappen med id #to1, starter den funktion som vi beskriver inden i on()
