@@ -362,6 +362,9 @@ body {
 
 
 /*---------------THE TIGER FAMILY--------------*/
+.tigerFamily{
+    cursor: pointer;
+}
 
 .ptigerfamily{
     font-size: 25px;
@@ -370,10 +373,10 @@ body {
     text-align:center; 
     color: darkorange;
 }
-.ptigerfamily:hover{
+.tigerFamily:hover .ptigerfamily{
     color: #d85913;
     transition: all 0.5s;
-    cursor: pointer;    
+    
 }
 
 /*---------------WHY THEY MATTER--------------*/
