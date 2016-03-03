@@ -347,7 +347,8 @@ body {
 /*---------------THE MAP - TIGER POPULATION--------------*/
 
 #map{
-    background-image:  transparent url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/themap_before.jpg);
+    background-image: url(http://safefromharm.cryolab.dk/wp-content/themes/safefromharm/images/themap_before.jpg);
+    background-color: transparent;
     background-size: 100%;
     background-repeat: no-repeat;
     transition: all 0.5s;
