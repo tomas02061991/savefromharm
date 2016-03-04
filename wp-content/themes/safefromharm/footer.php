@@ -51,6 +51,7 @@
                     <a href=""></a>
                 </div> 
             </div>
+            <p><i class="fa fa-copyright"></i> Safe From Harm 2016 - School Project</p>
         </footer>  
         <script>
 
