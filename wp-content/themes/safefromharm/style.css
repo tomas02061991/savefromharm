@@ -77,6 +77,12 @@ nav ul li, nav ul li a{
     }  
 }
 
+@media (max-width: 768px){
+    nav ul li, nav ul li a{
+        font-size: 10vw;
+    }  
+}
+
 nav ul li a:hover{
     color: darkorange!important;
     transition: all 0.5s;
