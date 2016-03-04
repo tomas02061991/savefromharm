@@ -148,6 +148,13 @@ nav ul li a:hover{
     right: 1vw;
 }
 
+
+@media (max-width: 1290px){
+    #donate{
+        font-size: 1.3vw;
+    }
+}
+
 @media (max-width: 768px){
     #donate{
         background-image: none;
@@ -159,12 +166,6 @@ nav ul li a:hover{
 
     #donate:hover{
         color: darkorange!important
-    }
-}
-
-@media (max-width: 1290px){
-    #donate{
-        font-size: 1.3vw;
     }
 }
 
