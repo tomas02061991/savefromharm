@@ -51,7 +51,7 @@
                     <a href=""></a>
                 </div> 
             </div>
-            <p id="copyrgiht"><i class="fa fa-copyright"></i> Safe From Harm 2016 - School Project</p>
+            <p id="copyright"><i class="fa fa-copyright"></i> Safe From Harm 2016 - School Project</p>
         </footer>  
         <script>
 
