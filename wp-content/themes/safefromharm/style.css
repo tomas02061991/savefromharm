@@ -154,6 +154,7 @@ nav ul li a:hover{
         position: relative;
         right: auto;
         width: 100%;
+        font-size: 5vw;
     }
 
     #donate:hover{
