@@ -521,6 +521,11 @@ footer{
     color: darkorange;
 }
 
+#copyright{
+ margin-left: 1vw;
+font-size: 11px;
+}
+
 .linkfooter{
     text-align:center;
     letter-spacing: 20px;
